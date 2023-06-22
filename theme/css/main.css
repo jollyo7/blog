@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+/* あとで reset.css に行く */
+
+/* メイン */
+
+/* **************** *
+ * 色
+ * **************** */
+html {
+    --main-color: #8D6E63; /* brown 400 */
+    --main-color-deco: #D7CCC8; /* brown 100 */
+    --text-color-main: #333;
+    --text-color-deco: #999;
+    --background-color-base: #DDD;
+    --background-color-main: #FFF;
+    --caterogy-color: #FFB74D; /* orange 300 */
+    --tag-color: #A5D6A7; /* green 200 */
+}
+
+body {
+    color: var(--text-color-main);
+    background-color: var(--background-color-base);
+}
+
+/* **************** *
+ * レイアウト
+ * **************** */
+body {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-areas: 
+        "header header"
+        "main  sidebar"
+        "footer footer";
+    gap: 10px;
+}
+
+body > header {
+    grid-area: header;
+    background-color: var(--background-color-main);
+}
+
+body > main {
+    grid-area: main;
+}
+
+body > aside {
+    grid-area: sidebar;
+    background-color: var(--background-color-main);
+}
+
+body > footer {
+    grid-area: footer;
+    background-color: var(--background-color-main);
+}
+
+
+/* **************** *
+ * flex-wrap で回り込ませる
+ * **************** */
+ul.menu,
+hgroup.title-logo,
+ol.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0px 5px;
+}
+
+
+/* **************** *
+ * Web アイコン
+ * **************** */
+span.material-icons {
+    vertical-align: bottom;
+}
+
+
+/* **************** *
+ * リスト系共通
+ * **************** */
+ul.menu,
+ol.breadcrumbs,
+ul.taxonomies-inline,
+ul.taxonomies-box {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* リンクのリスト */
+:is(.menu, .title-logo, .breadcrumbs, .taxonomies-inline, .taxonomies-box) a {
+    text-decoration: none;
+    border: solid 1px gray;
+    display: inline-block;
+
+    color: darkblue;
+}
+
+
+/* **************** *
+ * パンくずリスト
+ * **************** */
+ol.breadcrumbs > li:not(:first-child)::before {
+    content: ">";
+    padding-right: 5px;
+}
+
+ol.breadcrumbs > li > a {
+    padding: 5px;
+}
+
+
+/* **************** *
+ * 分類一覧系
+ * **************** */
+ul:is(.taxonomies-box, .taxonomies-inline) a {
+    padding-right: 5px;
+}
+
+ul.taxonomies-box > li:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+ul.taxonomies-inline > li {
+    display: inline;
+    word-break: break-all;
+}
+
+ul.taxonomies-inline > li:not(:last-child) {
+    margin-right: 5px;
+}
+
+ul.taxonomies-inline > li > a {
+    display: inline;
+    line-height: 2;
+}
+
+/* inline 中は web icon ずれるので */
+ul.taxonomies-inline > li > a > span.material-icons {
+    vertical-align: middle;
+}
+
+ul.categories > li > a {
+    background-color: var(--caterogy-color);
+}
+
+ul.tags > li > a {
+    background-color: var(--tag-color);
+}
+
+
+/* **************** *
+ * ヘッダー部
+ * **************** */
+body > header a {
+    padding: 10px;
+}
+
+body > header > hgroup {
+    margin-top: 5px;
+}
+
+body > header > hgroup > * {
+    margin: 0;
+}
+
+
+/* **************** *
+ * メイン部
+ * **************** */
+
+
+/* **************** *
+ * 記事群・記事 共通部分
+ * **************** */
+main header > h1 {
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main > article > header {
+    padding-bottom: 5px;
+}
+
+main header > h1 > a {
+    color: var(--text-color-main);
+    text-decoration: none;
+}
+
+main > header {
+    padding: 5px 5px 0px 5px;
+    background-color: var(--background-color-main);
+}
+
+/* **************** *
+ * 記事群
+ * **************** */
+main > article {
+    /* border: dotted 1px black; */
+    padding: 5px;
+    background-color: var(--background-color-main);
+}
+
+main > article:not(:last-child) {
+    /* このあと paging 足すから last-child でも margin いるかも */
+    margin-bottom: 10px;
+}
+
+
+/* **************** *
+ * 記事
+ * **************** */
+article > h1 {
+    font-size: 1.5em;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top:    solid 3px var(--main-color);
+    border-bottom: solid 3px var(--main-color);
+
+    background-image: radial-gradient(var(--main-color-deco) 1px, transparent 1px), radial-gradient(var(--main-color-deco) 1px, transparent 1px);
+    background-size: 10px 10px;
+    background-position: 0 0, 5px 5px;
+}
+
+article > h2 {
+    border-bottom: solid 2px var(--main-color);
+}
+
+article > h3 {
+    border-left: solid 5px var(--main-color);
+    padding-left: 4px;
+}
+
+article > h4 {
+
+}
+
+article > :is(h1, h2, h3, h4)::before {
+    color: var(--text-color-deco);
+    font-weight: normal;
+}
+
+article > h1::before {
+    content: "# ";
+}
+
+article > h2::before {
+    content: "## ";
+}
+
+article > h3::before {
+    content: "### ";
+}
+
+article > h4::before {
+    content: "#### ";
+}
+
+
+/* **************** *
+ * 個別ページ: 記事一覧
+ * **************** */
+main.archives > h1 {
+    float: left;
+    clear: left;
+    margin: 0;
+}
+
+main.archives > div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 96px;
+    border-bottom: dotted 1px black;
+    padding: 3px;
+}
+
+main.archives > div.last-per-year {
+    margin-bottom: 1em;
+}
+
+main.archives a {
+    text-decoration: none;
+    display: inline-block;
+
+    color: darkblue;
+}
+
+
+/* **************** *
+ * サイドバー部
+ * **************** */
+
+aside > h1 {
+    color: var(--background-color-main);
+    background-color: var(--main-color);
+    padding: 5px;
+    
+}
+
+/* **************** *
+ * フッター部
+ * **************** */
