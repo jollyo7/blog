@@ -28,11 +28,11 @@ body {
  * **************** */
 body {
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr minmax(180px, 1000px) 1fr;
     grid-template-areas: 
-        "header header"
-        "main  sidebar"
-        "footer footer";
+        "header header header"
+        ".      main   .     "
+        "footer footer footer";
     gap: 10px;
 }
 
@@ -45,10 +45,6 @@ body > main {
     grid-area: main;
 }
 
-body > aside {
-    grid-area: sidebar;
-    background-color: var(--background-color-main);
-}
 
 body > footer {
     grid-area: footer;
