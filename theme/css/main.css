@@ -23,7 +23,7 @@ html {
     /*--background-color-base: #DDD; */
     --background-color-main: #FFF;
     --caterogy-color: #FFB74D; /* orange 300 */
-    --tag-color: #A5D6A7; /* green 200 */
+    --tag-color: #FFE0B2; /* orange 100 */
 }
 
 body {
@@ -152,11 +152,11 @@ ul.taxonomies-inline > li > a > span.material-icons {
     vertical-align: middle;
 }
 
-ul.categories > li > a {
+li.categories > a {
     background-color: var(--caterogy-color);
 }
 
-ul.tags > li > a {
+li.tags > a {
     background-color: var(--tag-color);
 }
 
@@ -208,8 +208,9 @@ main header > h1 {
     margin-bottom: 0px;
 }
 
-main > article > header {
-    padding-bottom: 5px;
+main > article > header > div {
+    display: flex;
+    justify-content: space-between;
 }
 
 main header > h1 > a {
