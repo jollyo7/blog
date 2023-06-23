@@ -84,7 +84,7 @@ ol.breadcrumbs {
  * Web アイコン
  * **************** */
 span.material-icons {
-    vertical-align: bottom;
+    vertical-align: text-bottom;
 }
 
 
@@ -100,12 +100,20 @@ ul.taxonomies-box {
 }
 
 /* リンクのリスト */
-:is(.menu, .title-logo, .breadcrumbs, .taxonomies-inline, .taxonomies-box) a {
+:is(.menu, .title-logo, .breadcrumbs, .taxonomies-box) a {
     text-decoration: none;
     border: solid 1px gray;
     display: inline-block;
 
     color: darkblue;
+}
+
+.taxonomies-inline a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--text-color-main);
+    border: solid 1px var(--main-color-deco);
+
 }
 
 
@@ -125,17 +133,13 @@ ol.breadcrumbs > li > a {
 /* **************** *
  * 分類一覧系
  * **************** */
-ul:is(.taxonomies-box, .taxonomies-inline) a {
-    padding-right: 5px;
-}
-
 ul.taxonomies-box > li:not(:last-child) {
     margin-bottom: 1px;
 }
 
 ul.taxonomies-inline > li {
     display: inline;
-    word-break: break-all;
+    /* word-break: break-all; */
 }
 
 ul.taxonomies-inline > li:not(:last-child) {
@@ -143,13 +147,9 @@ ul.taxonomies-inline > li:not(:last-child) {
 }
 
 ul.taxonomies-inline > li > a {
-    display: inline;
-    line-height: 2;
-}
-
-/* inline 中は web icon ずれるので */
-ul.taxonomies-inline > li > a > span.material-icons {
-    vertical-align: middle;
+    /* display: inline; */
+    padding: 5px 8px 5px 5px;
+    border-radius: 4px;
 }
 
 li.categories > a {
