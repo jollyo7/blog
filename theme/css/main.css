@@ -20,8 +20,7 @@ html {
     --main-color: #8D6E63; /* brown 400 */
     --main-color-deco: #D7CCC8; /* brown 100 */
     --text-color-main: #333;
-    --text-color-deco: #999;
-    --background-color-base: #DDD;
+    /*--background-color-base: #DDD; */
     --background-color-main: #FFF;
     --caterogy-color: #FFB74D; /* orange 300 */
     --tag-color: #A5D6A7; /* green 200 */
@@ -29,7 +28,7 @@ html {
 
 body {
     color: var(--text-color-main);
-    background-color: var(--background-color-base);
+    background-color: var(--background-color-main);
 }
 
 /* **************** *
@@ -91,7 +90,6 @@ span.material-icons {
 /* **************** *
  * リスト系共通
  * **************** */
-ul.menu,
 ol.breadcrumbs,
 ul.taxonomies-inline,
 ul.taxonomies-box {
@@ -169,11 +167,17 @@ body > header a {
     padding: 10px;
 }
 
-body > header > * {
-    margin-left: auto;
-    margin-right: auto;
+body > header > hgroup {
+    margin: 0 auto;
+    width: var(--content-max-width);
+}
+
+body > header > nav > ul {
+    margin: 0 auto;
     width: var(--content-max-width);
 
+    padding: 0;
+    list-style-type: none;
 }
 
 body > header > hgroup > * {
@@ -182,6 +186,8 @@ body > header > hgroup > * {
 
 body > header > nav {
     margin-top: 5px;
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 }
 
 
@@ -218,25 +224,28 @@ main > header {
  * 記事群
  * **************** */
 main > article {
-    /* border: dotted 1px black; */
-    padding: 5px;
+    padding: 16px 5px 5px 5px;
     background-color: var(--background-color-main);
 }
 
 main > article:not(:last-child) {
-    /* このあと paging 足すから last-child でも margin いるかも */
-    margin-bottom: 10px;
+    border-bottom: dashed 4px var(--main-color-deco);
 }
 
 
 /* **************** *
  * 記事
  * **************** */
+article > header time {
+    font-size: 1.5em;
+}
+
 article > h1 {
     font-size: 1.5em;
 
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 5px;
     border-top:    solid 3px var(--main-color);
     border-bottom: solid 3px var(--main-color);
 
@@ -247,36 +256,16 @@ article > h1 {
 
 article > h2 {
     border-bottom: solid 2px var(--main-color);
+    padding-left: 5px;
 }
 
 article > h3 {
     border-left: solid 5px var(--main-color);
-    padding-left: 4px;
+    padding-left: 9px;
 }
 
 article > h4 {
 
-}
-
-article > :is(h1, h2, h3, h4)::before {
-    color: var(--text-color-deco);
-    font-weight: normal;
-}
-
-article > h1::before {
-    content: "# ";
-}
-
-article > h2::before {
-    content: "## ";
-}
-
-article > h3::before {
-    content: "### ";
-}
-
-article > h4::before {
-    content: "#### ";
 }
 
 
@@ -306,18 +295,6 @@ main.archives a {
     display: inline-block;
 
     color: darkblue;
-}
-
-
-/* **************** *
- * サイドバー部
- * **************** */
-
-aside > h1 {
-    color: var(--background-color-main);
-    background-color: var(--main-color);
-    padding: 5px;
-    
 }
 
 /* **************** *
