@@ -41,6 +41,8 @@ html {
 }
 
 body {
+    margin: 0px;
+
     display: grid;
     grid-template-columns: 1fr minmax(var(--content-min-width), var(--content-max-width)) 1fr;
     grid-template-areas: 
@@ -52,7 +54,6 @@ body {
 
 body > header {
     grid-area: header;
-    background-color: var(--background-color-main);
 }
 
 body > main {
@@ -188,6 +189,7 @@ body > header > nav {
     margin-top: 5px;
     border-top: 1px solid var(--main-color);
     border-bottom: 1px solid var(--main-color);
+    background-color: var(--main-color-deco);
 }
 
 
@@ -305,3 +307,14 @@ main.archives a {
 /* **************** *
  * フッター部
  * **************** */
+body > footer {
+    border-top: 1px solid var(--main-color);
+    padding: 16px;
+
+    background-color: var(--main-color-deco);
+}
+
+body > footer > * {
+    margin: 0 auto;
+    width: var(--content-max-width);
+}
