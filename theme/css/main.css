@@ -89,7 +89,7 @@ body > footer {
  * flex-wrap で回り込ませる
  * **************** */
 ul.menu,
-article > header ul,
+article > header > ul,
 hgroup.title-logo,
 ol.breadcrumbs {
     display: flex;
@@ -103,7 +103,7 @@ ol.breadcrumbs {
  * Web アイコン
  * **************** */
 span.material-icons {
-    vertical-align: text-bottom;
+    vertical-align: text-top;
 }
 
 
@@ -229,24 +229,6 @@ main header > h1 {
     font-size: 1.3rem;
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-
-
-main > article > header > div {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 599px) {
-    main > article > header ul {
-        text-align: right; /* TODO: 効いていない */
-    }
-
-}
-
-@media screen and (min-width: 600px) {
 }
 
 main header > h1 > a {
