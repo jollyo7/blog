@@ -162,7 +162,7 @@ ul.taxonomies-inline > li {
 
 
 ul.taxonomies-inline > li > a {
-    padding: 5px 8px 5px 5px;
+    padding: 3px 6px 3px 3px;
     border-radius: 4px;
 }
 
@@ -226,7 +226,7 @@ body > header > nav {
  * 記事群・記事 共通部分
  * **************** */
 main header > h1 {
-    font-size: 2em;
+    font-size: 1.3rem;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -276,11 +276,11 @@ main > article:not(:last-child) {
  * 記事
  * **************** */
 article > header time {
-    font-size: 1.5em;
+    font-size: 1.15rem;
 }
 
 article > h1 {
-    font-size: 1.5em;
+    font-size: 1.3rem;
 
     padding-top: 5px;
     padding-bottom: 5px;
@@ -294,11 +294,15 @@ article > h1 {
 }
 
 article > h2 {
+    font-size: 1.15rem;
+
     border-bottom: solid 2px var(--main-color);
     padding-left: 5px;
 }
 
 article > h3 {
+    font-size: 1rem;
+
     border-left: solid 5px var(--main-color);
     padding-left: 9px;
 }
@@ -326,7 +330,7 @@ main.archives > div {
 }
 
 main.archives > div.last-per-year {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 main.archives a {
