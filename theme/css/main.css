@@ -104,7 +104,9 @@ ol.breadcrumbs {
  * Web アイコン
  * **************** */
 span.material-icons {
+    display: inline-flex;
     vertical-align: text-top;
+    font-size: 1.5em;
 }
 
 
@@ -130,7 +132,6 @@ ul.taxonomies-box {
 
 .taxonomies-inline a {
     text-decoration: none;
-    display: inline-block;
     color: var(--text-color-main);
     border: solid 1px var(--main-color-deco);
 
