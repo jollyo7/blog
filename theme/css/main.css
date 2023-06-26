@@ -103,9 +103,9 @@ ol.breadcrumbs {
 /* **************** *
  * Web アイコン
  * **************** */
-span.material-icons {
+span.material-symbols-outlined {
     display: inline-flex;
-    vertical-align: middle;
+    vertical-align: text-top;
     font-size: 1.5em;
 }
 
