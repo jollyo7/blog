@@ -105,7 +105,7 @@ ol.breadcrumbs {
  * **************** */
 span.material-icons {
     display: inline-flex;
-    vertical-align: text-top;
+    vertical-align: middle;
     font-size: 1.5em;
 }
 
