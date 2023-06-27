@@ -106,7 +106,7 @@ ol.breadcrumbs {
 span.material-symbols-outlined {
     /* display: inline-flex; */
     vertical-align: middle;
-    font-size: 1.5em;
+    font-size: 1rem;
 }
 
 
@@ -189,7 +189,7 @@ body > header > hgroup > * {
 }
 
 body > header > hgroup > h1 > a {
-    line-height: 2em;
+    padding: 0.5rem;
 }
 
 @media screen and (min-width: 600px) {
