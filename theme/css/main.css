@@ -106,7 +106,7 @@ ol.breadcrumbs {
 span.material-symbols-outlined {
     /* display: inline-flex; */
     vertical-align: middle;
-    font-size: 1rem;
+    font-size: 1.5em;
 }
 
 
@@ -164,6 +164,8 @@ ul.taxonomies-inline > li {
 
 
 ul.taxonomies-inline > li > a {
+    display: inline-flex;
+    vertical-align: middle;
     padding: 2px 5px 2px 2px;
     border-radius: 4px;
 }
