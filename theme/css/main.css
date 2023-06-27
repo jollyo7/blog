@@ -9,8 +9,14 @@
  * **************** */
 
 body {
-    /* font-size: 0.95em; */
     font-family: "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 0.95em; 
+    }
 }
 
 
@@ -125,7 +131,7 @@ ul.taxonomies-box {
 :is(.menu, .title-logo, .breadcrumbs, .taxonomies-box) a {
     text-decoration: none;
     border: solid 1px gray;
-    display: inline-flex;
+    display: block;
 
     color: darkblue;
 }
@@ -220,9 +226,8 @@ body > header > nav > ul {
 }
 
 body > header > nav > ul a {
-    padding: 0.5rem;
-    display: inline-flex;
-    vertical-align: middle;
+    line-height: 2.5rem;
+    padding: 0 0.5rem;
 }
 
 
@@ -236,7 +241,7 @@ body > header > nav > ul a {
  * **************** */
 main header > h1 {
     font-size: 1.3rem;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
 }
 
@@ -266,8 +271,20 @@ main > article:not(:last-child) {
 /* **************** *
  * 記事
  * **************** */
+
+@media screen and (min-width: 600px) {
+    article > header > div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 article > header time {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
+}
+
+article > :is(h1, h2, h3, h4) {
+    margin-left: -5px;
 }
 
 article > h1 {
