@@ -12,7 +12,6 @@ body {
     font-family: "Hiragino Sans", "Meiryo", sans-serif;
 }
 
-
 @media screen and (max-width: 599px) {
     body {
         font-size: 0.95em; 
@@ -283,8 +282,13 @@ article > header time {
     font-size: 1.3rem;
 }
 
-article > :is(h1, h2, h3, h4) {
+article > :is(h1, h2, h3) {
     margin-left: -5px;
+}
+
+article > :is(h1, h2, h3, h4) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 article > h1 {
