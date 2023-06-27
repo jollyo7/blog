@@ -323,6 +323,10 @@ article > h4 {
 
 }
 
+article ul ul {
+    padding-left: 20px;
+}
+
 
 /* **************** *
  * 個別ページ: 記事一覧
