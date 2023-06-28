@@ -61,7 +61,7 @@ body {
             "footer";
     }
 
-    article img {
+    article > p > img {
         width: 100%;
     }
 }
@@ -341,6 +341,15 @@ article ul ul {
     padding-left: 20px;
 }
 
+article table {
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+
+article table :is(th, td) {
+    border: solid 1px var(--main-color-deco);
+    padding: 3px;
+}
 
 /* **************** *
  * 個別ページ: 記事一覧
