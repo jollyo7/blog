@@ -344,6 +344,7 @@ article ul ul {
 article table {
     border-collapse: collapse;
     margin: 16px 0;
+    font-size: 1rem;
 }
 
 article table :is(th, td) {
