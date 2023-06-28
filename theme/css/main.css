@@ -351,6 +351,18 @@ article table :is(th, td) {
     padding: 3px;
 }
 
+article > table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article > iframe,
+article > p > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* **************** *
  * 個別ページ: 記事一覧
  * **************** */
