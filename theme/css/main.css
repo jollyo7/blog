@@ -94,13 +94,20 @@ body > footer {
 /* **************** *
  * flex-wrap で回り込ませる
  * **************** */
-ul.menu,
 article > header > ul,
 hgroup.title-logo,
 ol.breadcrumbs {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    gap: 0px 5px;
+}
+
+/* あとで整理 */
+ul.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 0px 5px;
 }
 
