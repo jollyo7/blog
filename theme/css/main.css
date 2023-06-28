@@ -130,10 +130,16 @@ ul.taxonomies-box {
 :is(.menu, .title-logo, .breadcrumbs, .taxonomies-box) a {
     text-decoration: none;
     border: solid 1px gray;
-    display: block;
 
     color: darkblue;
 }
+
+/* あとで整理 */
+
+.title-logo a {
+    display: block;
+}
+
 
 .taxonomies-inline a {
     text-decoration: none;
@@ -225,8 +231,9 @@ body > header > nav > ul {
 }
 
 body > header > nav > ul a {
-    line-height: 2.5rem;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
+    display: inline-flex;
+    vertical-align: middle;
 }
 
 
