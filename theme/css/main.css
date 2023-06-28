@@ -125,16 +125,27 @@ span.material-symbols-outlined {
 /* **************** *
  * リスト系共通
  * **************** */
-ol.breadcrumbs,
-ul.taxonomies-inline,
-ul.taxonomies-box {
+ol.breadcrumbs {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
+main header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+main header ul li {
+    display: inline;
+}
+
+main header ul li a {    
+}
+
 /* リンクのリスト */
-:is(.menu, .title-logo, .breadcrumbs, .taxonomies-box) a {
+:is(.menu, .title-logo, .breadcrumbs) a {
     text-decoration: none;
     border: solid 1px gray;
 
@@ -148,12 +159,6 @@ ul.taxonomies-box {
 }
 
 
-.taxonomies-inline a {
-    text-decoration: none;
-    color: var(--text-color-main);
-    border: solid 1px var(--main-color-deco);
-
-}
 
 
 /* **************** *
@@ -172,28 +177,23 @@ ol.breadcrumbs > li > a {
 /* **************** *
  * 分類一覧系
  * **************** */
-ul.taxonomies-box > li:not(:last-child) {
-    margin-bottom: 1px;
+li.category > a {
+    background-color: var(--caterogy-color);
 }
 
-ul.taxonomies-inline > li {
-    display: inline;
+li.tag > a {
+    background-color: var(--tag-color);
 }
 
-
-ul.taxonomies-inline > li > a {
+li.category > a,
+li.tag > a {
+    text-decoration: none;
+    color: var(--text-color-main);
+    border: solid 1px var(--main-color-deco);
     display: inline-flex;
     vertical-align: middle;
     padding: 2px 5px 2px 2px;
     border-radius: 4px;
-}
-
-li.categories > a {
-    background-color: var(--caterogy-color);
-}
-
-li.tags > a {
-    background-color: var(--tag-color);
 }
 
 
@@ -264,7 +264,7 @@ main header > h1 > a {
 }
 
 main > header {
-    padding: 5px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
     background-color: var(--background-color-main);
 }
 
@@ -272,8 +272,12 @@ main > header {
  * 記事群
  * **************** */
 main > article {
-    padding: 16px 5px 32px 5px;
+    padding: 0px 5px 32px 5px;
     background-color: var(--background-color-main);
+}
+
+main > article:not(:first-child) {
+    margin-top: 10px;
 }
 
 main > article:not(:last-child) {
@@ -286,13 +290,13 @@ main > article:not(:last-child) {
  * **************** */
 
 @media screen and (min-width: 600px) {
-    article > header > div {
+    main header > div {
         display: flex;
         justify-content: space-between;
     }
 }
 
-article > header time {
+main header time {
     font-size: 1.3rem;
 }
 
