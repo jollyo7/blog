@@ -221,13 +221,26 @@ article > p > img {
 article > ul ul {
   padding-left: 20px;
 }
-article > iframe {
-  display: block;
-  margin: 1rem auto;
+@media screen and (max-width: 599px) {
+  article > .youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin: 1rem 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  article > .youtube > iframe {
+    display: block;
+    margin: 1rem auto;
+  }
 }
 @media screen and (max-width: 599px) {
-  article > iframe {
+  article > .youtube > iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 100%;
+    height: 100%;
   }
 }
 article > table {
