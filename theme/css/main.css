@@ -225,6 +225,11 @@ article > iframe {
   display: block;
   margin: 1rem auto;
 }
+@media screen and (max-width: 599px) {
+  article > iframe {
+    width: 100%;
+  }
+}
 article > table {
   margin: 1rem auto;
   border-collapse: collapse;
@@ -257,7 +262,7 @@ section.posts > div {
   display: flex;
   justify-content: space-between;
   border-bottom: dotted 1px black;
-  padding: 0.5rem 0.5rem 0 0;
+  padding: 3px;
 }
 @media screen and (min-width: 600px) {
   section.posts > div {
