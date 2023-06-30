@@ -250,6 +250,11 @@ article > table {
 }
 article > table th, article > table td {
   border: solid 1px #D7CCC8;
+}
+article > table th:has(img), article > table td:has(img) {
+  padding: 0;
+}
+article > table th:not(:has(img)), article > table td:not(:has(img)) {
   padding: 0.5rem;
 }
 

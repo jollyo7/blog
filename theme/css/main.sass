@@ -265,7 +265,12 @@ article
 
         th, td
             border: solid 1px $main-color-deco
-            padding: 0.5rem
+
+            &:has(img)
+                padding: 0
+
+            &:not(:has(img))
+                padding: 0.5rem
 
     
 
