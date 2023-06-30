@@ -259,17 +259,24 @@ section.posts
     padding: 0 0.5rem 1rem 0.5rem
 
     > h1
-        font-size: 2rem
-        float: left
-        clear: left
         margin: 0
+
+        @include mobile-view
+            font-size: 1.3rem
+
+        @include pc-view
+            font-size: 2rem
+            float: left
+            clear: left
     
     > div
         display: flex
         justify-content: space-between
-        margin-left: 6rem
         border-bottom: dotted 1px black
         padding: 3px
+
+        @include pc-view
+            margin-left: 6rem
 
         > a
             text-decoration: none

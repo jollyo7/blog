@@ -239,17 +239,30 @@ section.posts {
   padding: 0 0.5rem 1rem 0.5rem;
 }
 section.posts > h1 {
-  font-size: 2rem;
-  float: left;
-  clear: left;
   margin: 0;
+}
+@media screen and (max-width: 599px) {
+  section.posts > h1 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  section.posts > h1 {
+    font-size: 2rem;
+    float: left;
+    clear: left;
+  }
 }
 section.posts > div {
   display: flex;
   justify-content: space-between;
-  margin-left: 6rem;
   border-bottom: dotted 1px black;
-  padding: 3px;
+  padding: 0.5rem 0.5rem 0 0;
+}
+@media screen and (min-width: 600px) {
+  section.posts > div {
+    margin-left: 6rem;
+  }
 }
 section.posts > div > a {
   text-decoration: none;
