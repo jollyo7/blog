@@ -266,13 +266,9 @@ article
         th, td
             border: solid 1px $main-color-deco
 
-            &:has(img)
-                padding: 0
+        th:first-child, td:first-child
+            white-space: nowrap
 
-            &:not(:has(img))
-                padding: 0.5rem
-
-    
 
 //個別: 記事一覧
 section.posts
