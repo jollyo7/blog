@@ -243,16 +243,21 @@ article > ul ul {
     height: 100%;
   }
 }
-article table {
+article > table {
   margin: 1rem auto;
   border-collapse: collapse;
   font-size: 1rem;
 }
-article table th, article table td {
+article > table th, article > table td {
   border: solid 1px #D7CCC8;
 }
-article table th:first-child, article table td:first-child {
+article > table th:first-child, article > table td:first-child {
   white-space: nowrap;
+}
+article code {
+  background-color: #DDD;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
 
 section.posts {
