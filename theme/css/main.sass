@@ -33,23 +33,24 @@ $content-max-width: 1000px
 
 
 //基本設定
-body
-    margin: 0
-
-    //背景色
-    background-color: $background-color-main
-
-    > footer
-        border-top: 1px solid $main-color
-        background-color: $main-color-deco
-        padding: 1rem
-
+html
     //フォント
     font-family: "Hiragino Sans", "Meiryo", sans-serif
     color: $text-color-main
 
     @include mobile-view
         font-size: 0.95rem
+
+    > body
+        margin: 0
+
+        //背景色
+        background-color: $background-color-main
+
+        > footer
+            border-top: 1px solid $main-color
+            background-color: $main-color-deco
+            padding: 1rem
 
 
 //Gridレイアウト
@@ -247,14 +248,17 @@ article
         padding-left: 8px
 
     > p
-        > img
+        img
+            @include pc-view
+                max-width: calc($content-max-width - 4rem)
+
             @include mobile-view
                 width: 100%
 
             display: block
             margin: 0 auto
 
-    > ul ul
+    ul
         padding-left: 20px
 
     > .youtube
