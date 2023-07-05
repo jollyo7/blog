@@ -131,7 +131,7 @@ body > main > header {
 }
 @media screen and (max-width: 599px) {
   body > main > header {
-    max-width: calc(100vw - 8px);
+    max-width: calc(100vw - 16px);
   }
   body > main > header > ol {
     overflow-x: scroll;
@@ -269,7 +269,7 @@ article > ul ul {
 }
 @media screen and (max-width: 599px) {
   article > div.table_wrapper {
-    max-width: calc(100vw - 8px);
+    max-width: calc(100vw - 16px);
     overflow-x: scroll;
   }
 }
