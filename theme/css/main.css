@@ -246,7 +246,7 @@ article > p img {
 }
 @media screen and (max-width: 599px) {
   article > p img {
-    width: 100%;
+    max-width: 100%;
   }
 }
 article ul {
