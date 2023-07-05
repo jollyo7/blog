@@ -76,7 +76,7 @@ body
         margin: 0 auto
 
         @include pc-view
-            width: $content-max-width
+            width: 100vw
 
 
 //Webアイコン
@@ -151,14 +151,14 @@ body
 
             @include mobile-view
                 // スマホのときは横スクロールにする
-                max-width: calc(100vw - 20px)
+                max-width: calc(100vw - 8px)
 
                 > ol
                     overflow-x: scroll
                     white-space: nowrap
                     scrollbar-width: none
 
-                        &::-webkit-scrollbar
+                    &::-webkit-scrollbar
                         display: none
 
             > ol
