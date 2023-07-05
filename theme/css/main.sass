@@ -27,7 +27,7 @@ $content-max-width: 1000px
     padding: 0
     list-style-type: none
     display: flex
-    flex-wrap: wrap
+    /* flex-wrap: wrap */
     /* align-items: center */
     gap: 0 0.5rem
 
@@ -124,6 +124,17 @@ body
             border-bottom: 1px solid $main-color
             background-color: $main-color-deco
 
+            @include mobile-view
+                // スマホのときは横スクロールにする
+                width: 100vw
+
+                > ul
+                    overflow-x: scroll
+                    white-space: nowrap
+                    scrollbar-width: none
+                
+                    &::-webkit-scrollbar
+                        display: none
 
             > ul
                 @include menu-list
@@ -137,6 +148,18 @@ body
     > main        
         > header
             padding: 0 0.5rem
+
+            @include mobile-view
+                // スマホのときは横スクロールにする
+                max-width: calc(100vw - 20px)
+
+                > ol
+                    overflow-x: scroll
+                    white-space: nowrap
+                    scrollbar-width: none
+
+                        &::-webkit-scrollbar
+                        display: none
 
             > ol
                 @include menu-list
@@ -173,6 +196,7 @@ main
             > ul
                 @include menu-list
                 margin: 0
+                flex-wrap: wrap
 
             > time
                 font-size: 1.3rem
