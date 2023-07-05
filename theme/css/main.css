@@ -9,6 +9,11 @@ body > footer {
   background-color: #D7CCC8;
   padding: 1rem;
 }
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 0.95rem;
+  }
+}
 
 body {
   display: grid;
@@ -43,12 +48,17 @@ body footer > * {
   body header > hgroup,
   body header > nav > ul,
   body footer > * {
-    width: 100vw;
+    width: 1000px;
   }
 }
 
 .material-symbols-outlined {
   vertical-align: middle;
+}
+@media screen and (max-width: 599px) {
+  .material-symbols-outlined {
+    font-size: 22.8px;
+  }
 }
 
 .category > a,
@@ -99,10 +109,6 @@ body > header > nav {
   body > header > nav > ul {
     overflow-x: scroll;
     white-space: nowrap;
-    scrollbar-width: none;
-  }
-  body > header > nav > ul::-webkit-scrollbar {
-    display: none;
   }
 }
 body > header > nav > ul {
@@ -130,10 +136,6 @@ body > main > header {
   body > main > header > ol {
     overflow-x: scroll;
     white-space: nowrap;
-    scrollbar-width: none;
-  }
-  body > main > header > ol::-webkit-scrollbar {
-    display: none;
   }
 }
 body > main > header > ol {
@@ -231,11 +233,6 @@ article > h3 {
   border-left: solid 5px #8D6E63;
   padding-left: 8px;
 }
-@media screen and (max-width: 599px) {
-  article > p {
-    font-size: 0.95rem;
-  }
-}
 article > p > img {
   display: block;
   margin: 0 auto;
@@ -270,15 +267,21 @@ article > ul ul {
     height: 100%;
   }
 }
-article > table {
+@media screen and (max-width: 599px) {
+  article > div.table_wrapper {
+    max-width: calc(100vw - 8px);
+    overflow-x: scroll;
+  }
+}
+article > div.table_wrapper > table {
   margin: 1rem auto;
   border-collapse: collapse;
   font-size: 1rem;
 }
-article > table th, article > table td {
+article > div.table_wrapper > table th, article > div.table_wrapper > table td {
   border: solid 1px #D7CCC8;
 }
-article > table th:first-child, article > table td:first-child {
+article > div.table_wrapper > table th:first-child, article > div.table_wrapper > table td:first-child {
   white-space: nowrap;
 }
 article :not(pre) > code {
