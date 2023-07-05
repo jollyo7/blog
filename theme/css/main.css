@@ -259,6 +259,9 @@ article :not(pre) > code {
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
 }
+article > div.highlight > pre {
+  white-space: pre-wrap;
+}
 
 section.posts {
   padding: 0 0.5rem 1rem 0.5rem;
