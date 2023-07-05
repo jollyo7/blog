@@ -254,7 +254,7 @@ article > table th, article > table td {
 article > table th:first-child, article > table td:first-child {
   white-space: nowrap;
 }
-article code {
+article :not(pre) > code {
   background-color: #DDD;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
