@@ -95,7 +95,7 @@ body
 .tag > a
     text-decoration: none
     border: solid 1px $main-color-deco
-    display: inline-flex
+    /* display: inline-flex */
     vertical-align: middle
     padding: 2px 5px 2px 2px
     border-radius: 4px
@@ -193,9 +193,13 @@ main
                 justify-content: space-between
 
             > ul
-                @include menu-list
+                padding: 0
                 margin: 0
-                flex-wrap: wrap
+                line-height: 2
+                
+
+                > li
+                    display: inline
 
             > time
                 font-size: 1.3rem
