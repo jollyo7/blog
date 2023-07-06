@@ -19,9 +19,9 @@ $content-max-width: 1000px
         @content
 
 @mixin link-area-debug
-    color: darkblue
+    color: $text-color-main
     text-decoration: none
-    border: solid 1px gray
+    //border: solid 1px gray
 
 @mixin menu-list
     padding: 0
@@ -161,13 +161,15 @@ body
                     white-space: nowrap
 
             > ol
-                @include menu-list
+                padding: 0
+                list-style-type: none
+                display: flex
 
                 margin: 0
 
                 > li:not(:first-child)::before
                     content: ">"
-                    margin-right: 4px
+                    color: $main-color
 
                 > li
                     display: inline-flex

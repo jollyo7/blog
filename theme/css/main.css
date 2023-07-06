@@ -94,9 +94,8 @@ body > header > hgroup > * {
 body > header > hgroup a {
   padding: 0.5rem;
   display: block;
-  color: darkblue;
+  color: #333;
   text-decoration: none;
-  border: solid 1px gray;
 }
 body > header > nav {
   margin-top: 0.5rem;
@@ -122,9 +121,8 @@ body > header > nav > ul {
   gap: 0 0.5rem;
 }
 body > header > nav > ul a {
-  color: darkblue;
+  color: #333;
   text-decoration: none;
-  border: solid 1px gray;
   padding: 0.5rem;
   display: inline-flex;
 }
@@ -144,23 +142,19 @@ body > main > header > ol {
   padding: 0;
   list-style-type: none;
   display: flex;
-  /* flex-wrap: wrap */
-  /* align-items: center */
-  gap: 0 0.5rem;
   margin: 0;
 }
 body > main > header > ol > li:not(:first-child)::before {
   content: ">";
-  margin-right: 4px;
+  color: #8D6E63;
 }
 body > main > header > ol > li {
   display: inline-flex;
   align-items: center;
 }
 body > main > header > ol > li > a {
-  color: darkblue;
+  color: #333;
   text-decoration: none;
-  border: solid 1px gray;
   padding: 0.5rem;
   display: inline-flex;
 }
