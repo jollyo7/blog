@@ -163,6 +163,35 @@ body > main > header > ol > li > a {
 body > main > :not(header):not(header + article) {
   margin-top: 0.5rem;
 }
+body > main > nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+body > main > nav > ul > li {
+  border: 1px solid #8D6E63;
+}
+body > main > nav > ul > li > a,
+body > main > nav > ul > li > span {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+body > main > nav > ul > li > a {
+  color: #333;
+  text-decoration: none;
+}
+body > main > nav > ul > li > span {
+  color: #D7CCC8;
+}
+body > main > nav > ul > li:not(:first-child) {
+  margin-left: -1px;
+}
+body > main > nav > ul > li.active {
+  background-color: #8D6E63;
+}
 
 @media screen and (min-width: 600px) {
   article > header > div,

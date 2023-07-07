@@ -188,6 +188,37 @@ body
             margin-top: 0.5rem
 
 
+        > nav
+            > ul
+                display: flex
+                flex-wrap: wrap
+                list-style-type: none
+                padding: 0
+                margin-top: 1rem
+                margin-bottom: 0
+                
+                > li
+                    border: 1px solid $main-color
+
+                    > a,
+                    > span
+                        display: block
+                        padding: 0.5rem 1rem
+                    
+                    > a    
+                        @include link-area-debug
+                    
+                    > span
+                        color: $main-color-deco
+                
+                    &:not(:first-child)
+                        margin-left: -1px
+
+                    &.active
+                        background-color: $main-color
+                
+
+
 //記事ヘッダー部        
 article,
 main
