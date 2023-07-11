@@ -235,6 +235,7 @@ main > header > h1 > a {
 
 article {
   padding: 0 0.5rem 2rem 0.5rem;
+  line-break: anywhere;
 }
 article:not(:last-child) {
   border-bottom: dashed 4px #D7CCC8;
