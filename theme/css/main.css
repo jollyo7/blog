@@ -331,6 +331,9 @@ article :not(pre) > code {
 article > div.highlight > pre {
   white-space: pre-wrap;
 }
+article span.summary-end-suffix {
+  color: #BBB;
+}
 
 section.posts {
   padding: 0 0.5rem 1rem 0.5rem;
