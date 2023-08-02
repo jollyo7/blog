@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-family: "Hiragino Sans", "Meiryo", sans-serif;
   color: #333;
@@ -114,7 +115,7 @@ body > header > nav {
     overflow-x: scroll;
     white-space: nowrap;
   }
-  body > header > nav::after {
+  > body > header > nav::after {
     content: "";
     position: absolute;
     right: 0;
@@ -156,7 +157,7 @@ body > main > header {
     overflow-x: scroll;
     white-space: nowrap;
   }
-  body > main > header::after {
+  > body > main > header::after {
     content: "";
     position: absolute;
     right: 0;
@@ -263,7 +264,31 @@ main > header > h1 > a {
   color: #333;
   text-decoration: none;
 }
+article > header > h1 > span.material-symbols-outlined,
+main > header > h1 > span.material-symbols-outlined {
+  color: #BBB;
+  cursor: pointer;
+}
+article > header > h1 > span.material-symbols-outlined.copy_complete::before,
+main > header > h1 > span.material-symbols-outlined.copy_complete::before {
+  font-size: 0.85em;
+  content: "✅";
+  position: absolute;
+  opacity: 0;
+  animation: copy_complete 1s linear 0.1s 1;
+}
 
+@keyframes copy_complete {
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 article {
   padding: 0 0.5rem 2rem 0.5rem;
   line-break: anywhere;

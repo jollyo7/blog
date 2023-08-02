@@ -291,7 +291,25 @@ main
             > a
                 color: $text-color-main
                 text-decoration: none
+            
+            > span.material-symbols-outlined
+                color: $text-color-sub
+                cursor: pointer
 
+                &.copy_complete::before
+                    font-size: 0.85em
+                    content: '✅'
+                    position: absolute
+                    opacity: 0
+                    animation: copy_complete 1s linear .1s 1
+
+@keyframes copy_complete
+    20%
+        opacity: 1
+    80%
+        opacity: 1
+    100%
+        opacity: 0
 
 //記事部
 article
