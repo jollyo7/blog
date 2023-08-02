@@ -115,7 +115,7 @@ body > header > nav {
     overflow-x: scroll;
     white-space: nowrap;
   }
-  > body > header > nav::after {
+  body > header > nav::after {
     content: "";
     position: absolute;
     right: 0;
@@ -157,7 +157,7 @@ body > main > header {
     overflow-x: scroll;
     white-space: nowrap;
   }
-  > body > main > header::after {
+  body > main > header::after {
     content: "";
     position: absolute;
     right: 0;
