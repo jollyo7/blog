@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>じょりおのブログ</title><link href="https://jollyo7.github.io/blog/" rel="alternate"></link><link href="https://jollyo7.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://jollyo7.github.io/blog/</id><updated>2023-10-08T00:00:00+09:00</updated><subtitle>二代目</subtitle><entry><title>AP(応用情報技術者試験) 受験</title><link href="https://jollyo7.github.io/blog/posts/2023/10-08/" rel="alternate"></link><published>2023-10-08T00:00:00+09:00</published><updated>2023-10-08T00:00:00+09:00</updated><author><name>Jollyo</name></author><id>tag:jollyo7.github.io,2023-10-08:/blog/posts/2023/10-08/</id><summary type="html">&lt;p&gt;多分受かった。防備録。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>じょりおのブログ</title><link href="https://jollyo7.github.io/blog/" rel="alternate"></link><link href="https://jollyo7.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://jollyo7.github.io/blog/</id><updated>2023-10-16T00:00:00+09:00</updated><subtitle>二代目</subtitle><entry><title>大型二種 教習22日目 卒業検定(合格)</title><link href="https://jollyo7.github.io/blog/posts/2023/10-16/" rel="alternate"></link><published>2023-10-16T00:00:00+09:00</published><updated>2023-10-16T00:00:00+09:00</updated><author><name>Jollyo</name></author><id>tag:jollyo7.github.io,2023-10-16:/blog/posts/2023/10-16/</id><summary type="html">&lt;p&gt;大型二種、教習最終日。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;大型二種、教習最終日。&lt;/p&gt;
+&lt;!----&gt;
+
+&lt;h1&gt;当日朝&lt;/h1&gt;
+&lt;p&gt;検定前に見返すための、忘れそうな点をまとめたメモを事前に作成。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;■始動・停止
+メインスイッチ忘れずに
+二速に入れて終わる
+
+■場内
+侵入前の安全確認は、ポールを超えてから停める
+方向転換右は侵入時に対向車線をはみ出す
+縦列駐車は反射板が縁石に掛かる直前まで下がってからハンドルを戻す
+
+■路上
+漫然と右の線に沿うのではなく、左ミラーを意識する
+5点確認は流れ作業にしない
+飛び出しがありそうなところは構えながら
+青信号でも諦めてブレーキ踏んで良い
+路端停止はわりと寄せる、目印通過しないようにする
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;卒業検定&lt;/h1&gt;
+&lt;p&gt;さて、頑張りますか。&lt;/p&gt;
+&lt;h2&gt;ブリーフィング&lt;/h2&gt;
+&lt;p&gt;受付を済ませたあと、検定待合室へ。この流れは修了検定のときにもやっていたので、そこまで緊張はしなかった。&lt;/p&gt;
+&lt;h3&gt;コース説明&lt;/h3&gt;
+&lt;h4&gt;場内&lt;/h4&gt;
+&lt;p&gt;今日の後退課題は縦列駐車。ひー。明らかに縦列駐車は練習不足なので、方向転換が良かったなぁ……そっちは今までほぼノーミスだし。&lt;br&gt;
+同じ時間帯で大型一種の検定を受ける人が一人いたのだが、その人は逆に方向転換が苦手なのに後退課題が方向転換になってしまったと嘆いていた。&lt;/p&gt;
+&lt;p&gt;なお、鋭角は左折(右折進入、左ターン)になった。右折侵入は入りやすいし、バイクコースとも干渉しない方だし、こっちは楽だね。&lt;/p&gt;
+&lt;h4&gt;場外&lt;/h4&gt;
+&lt;p&gt;走るルートが示された地図をもらう。今日のコースは6キロくらいあって長いとのこと。長さもまちまちなんすね。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コースは都度指示をもらえるので、覚える必要は無い&lt;/li&gt;
+&lt;li&gt;ルートには速度制限まで記入されていたので、助かる&lt;ul&gt;
+&lt;li&gt;今日のコースに 30km/h 制限の区間がない、というのを知れるだけでかなりうれしかった。環七周辺は 50km/h、あとは 40km/h なので覚えやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;難所っぽいところをピックアップしておく&lt;ul&gt;
+&lt;li&gt;2連チャン右折のところで、前が詰まっていたら侵入しない&lt;/li&gt;
+&lt;li&gt;環七の車線変更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;同乗者&lt;/h3&gt;
+&lt;p&gt;大型二種の検定を受けるのは自分だけだった。教官とサシにしてはいけないルールがあるらしく、追加で所員(事務のお姉さん？)が同乗するらしい。気にしなくて良いと言われたけど、無理な話だ。&lt;/p&gt;
+&lt;h3&gt;細かいルール確認&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://jollyo7.github.io/blog/posts/2023/07-30/" rel="nofollow"&gt;第1段階修了検定のとき&lt;/a&gt;によく分からなかったので、念のため質問。&lt;/p&gt;
+&lt;p&gt;Q. コースの最後で停車を指示された後、そのまま自発的に運転交代まで進めて良いのか&lt;br&gt;
+A. 良い。&lt;/p&gt;
+&lt;p&gt;明確な答えがもらえて一安心。大型一種の人も食いついていたので、やっぱこれはあらかじめ言ってくれないと分からないよね。&lt;/p&gt;
+&lt;h2&gt;検定本番(場内)&lt;/h2&gt;
+&lt;p&gt;ブリーフィングしてくれた人が検定員だった。さっき積極的に会話しておいて良かったぜ。&lt;/p&gt;
+&lt;p&gt;まずは場内の課題から。&lt;/p&gt;
+&lt;h3&gt;課題: 縦列駐車&lt;/h3&gt;
+&lt;p&gt;何でか知らんが、うまくいった。切り返し無し！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;なんかハンドルを切り始めるのが遅くなってしまったが、そのあと深めの角度で侵入して事なきを得た&lt;ul&gt;
+&lt;li&gt;いや、実際には気付いたらハンドルを戻すタイミングを過ぎていただけなので、たまたま深くなってうまくいっただけなのだが&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一応、諸々に気付いたあとは意識してゆっくりハンドルを戻した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;課題: 鋭角(右折進入、左ターン)&lt;/h3&gt;
+&lt;p&gt;何でか知らんが、切り返し1回で行けた。え、今までに1回で行けたこと無かった気がするのだがｗ&lt;/p&gt;
+&lt;h2&gt;検定本番(路上)&lt;/h2&gt;
+&lt;p&gt;無事、路上へ出ることに(場内で減点超過していたらそこで終わるので)。&lt;br&gt;
+路上検定の出発地点までは、検定員の運転。今まで気付いていなかったけど、ダッシュボード？に置いてあるミラー、助手席から運転者の顔とか視線とかが確認できるのね。&lt;/p&gt;
+&lt;h3&gt;課題: 路端停車&lt;/h3&gt;
+&lt;p&gt;3回ともうまく出来た。&lt;/p&gt;
+&lt;h3&gt;その他&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;黄色になりそうな微妙な信号、ちゃんと青のうちにブレーキ踏んで停車出来た&lt;/li&gt;
+&lt;li&gt;路上駐車を避けた先にあった横断歩道、気付いていなかったので、危なかった&lt;/li&gt;
+&lt;li&gt;環七は相変わらず細いし、路駐がいて車線変更したいのになかなか入れてくれないしで、大変だった&lt;/li&gt;
+&lt;li&gt;途中緊張しすぎて、信号待ちのあいだクラッチとブレーキを踏む両足の膝が震えてきて大変だった&lt;/li&gt;
+&lt;li&gt;信号待ち中、大型一種を受けている人の運転するトラックが曲がってきてすれ違う形になったので、お互いに片手を上げて合図。なんだか温かい気持ちになれた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;停車～離席&lt;/h3&gt;
+&lt;p&gt;コースの終点にたどり着き、停車してエンジンとメインスイッチを停止。直後、ギアを2速へ入れる前にメインスイッチを切ってしまったことに気付き、メインスイッチを入れ直してギアチェンジ。&lt;/p&gt;
+&lt;p&gt;再度メインスイッチを停止し、振り返って後ろの安全を確認してから離席。&lt;/p&gt;
+&lt;p&gt;これで検定対象期間は終了。ふぅ。&lt;/p&gt;
+&lt;h2&gt;帰所&lt;/h2&gt;
+&lt;p&gt;検定員の運転で教習所へ戻ることに。&lt;br&gt;
+戻るあいだ、めっちゃ雑談してくる。「免許取れたらバス運転するんですか」とか「二種学科の勉強は順調ですか」とか。これは合格予定だから、ってことで良いのだろうか。&lt;/p&gt;
+&lt;p&gt;もし受かっていたとしたら、もう大型バスを運転する機会は無いんだよな、これが最後だったんだなぁと、少しアンニュイな気持ちになってくる。&lt;br&gt;
+まぁ数万円払えば練習場とかで運転させてもらえるところはあるけど、コスパは悪いよな。あとは&lt;a href="https://www.vip-dsp.jp/" rel="nofollow"&gt;こういうの&lt;/a&gt;とか。(1時間2万円か……)&lt;/p&gt;
+&lt;p&gt;最後バス降りるとき、同乗していた事務のお姉さんから、「お疲れ様でした」と声をいただく。ありがとうございました。あと、バスだからか同乗はそこまで気にならなかったな。乗用車とかトラックみたいに真後ろの2列目に座っていると、もう少し圧があるのかも。&lt;/p&gt;
+&lt;h2&gt;合否発表&lt;/h2&gt;
+&lt;p&gt;15分くらいだったかな？ロビーで待っていたところに、試験官が再登場。空いている教室へ向かう。&lt;/p&gt;
+&lt;p&gt;そして結果は……合格！やった～。&lt;br&gt;
+「教習で学んだ通りの運転が出来ていました」との言葉をいただき、うれしくなる。恐る恐る確認したところ、特に減点もないとのこと。&lt;/p&gt;
+&lt;h1&gt;事務手続きと卒業&lt;/h1&gt;
+&lt;p&gt;同時に大型一種を受けていた人も合格していたとのことで、ここで合流。方向転換で切り返し3回、路上出発時にエンストなど、結構ギリギリだったというか落ちたと思っていたとのこと。&lt;/p&gt;
+&lt;p&gt;そのあとは完成した卒業証書のチェックをしたり、受領書にサインをしたり。あと教育訓練給付制度関連の書類(教育訓練修了証明書とか領収書とか)をもらったり。&lt;/p&gt;
+&lt;p&gt;これで、大型二種の教習はすべて完了。お世話になりました！&lt;/p&gt;
+&lt;h1&gt;昼飯&lt;/h1&gt;
+&lt;p&gt;帰り道、遅い昼飯として今日も&lt;a href="https://ramendb.supleks.jp/s/99110.html" rel="nofollow"&gt;陽はまたのぼる&lt;/a&gt;へ。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="特製濃厚煮干しそば" src="https://jollyo7.github.io/blog/posts/2023/10-16/1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;特製濃厚煮干しそば。&lt;a href="https://jollyo7.github.io/blog/posts/2023/09-10/" rel="nofollow"&gt;前回&lt;/a&gt;より好みな方向に戻って来ていた。また来ましょう。&lt;/p&gt;</content><category term="免許"></category><category term="教習所"></category><category term="大型二種"></category><category term="ラーメン"></category></entry><entry><title>大型二種 教習21日目 技能2-17時限目</title><link href="https://jollyo7.github.io/blog/posts/2023/10-14/" rel="alternate"></link><published>2023-10-14T00:00:00+09:00</published><updated>2023-10-14T00:00:00+09:00</updated><author><name>Jollyo</name></author><id>tag:jollyo7.github.io,2023-10-14:/blog/posts/2023/10-14/</id><summary type="html">&lt;p&gt;今日は最後のみきわめ。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;今日は最後のみきわめ。&lt;/p&gt;
+&lt;!----&gt;
+
+&lt;h1&gt;技能教習 2-17時限目&lt;/h1&gt;
+&lt;h2&gt;13. 教習効果の確認(みきわめ)&lt;/h2&gt;
+&lt;p&gt;みきわめと言うことで、卒業検定で行いうる課題を一通り試す。&lt;/p&gt;
+&lt;h3&gt;路上(ショート)&lt;/h3&gt;
+&lt;p&gt;この後場内に行く時間も必要なので、さっと戻ってこられる短いコース。ここに来て新コースなの、ウケる。&lt;/p&gt;
+&lt;h4&gt;課題: 路端停車&lt;/h4&gt;
+&lt;p&gt;なんとなくで出来たが、もうちょっと縁石に寄らないと、目印の柱が見づらいなと思った。目印にされる柱にも依るのだが。&lt;/p&gt;
+&lt;h3&gt;場内&lt;/h3&gt;
+&lt;p&gt;コース走行中、左折の大回りを指摘される。ここのカーブ、途中で半径変わるから難しいんだよな……&lt;/p&gt;
+&lt;p&gt;あと、鋭角以外は&lt;a href="https://jollyo7.github.io/blog/posts/2023/07-22/" rel="nofollow"&gt;7月の教習&lt;/a&gt;以来なので、ルールとかコツとかをすっかり忘れてしまっていた。&lt;/p&gt;
+&lt;h4&gt;課題: 方向転換(右)(逆侵入)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;コースに戻ってきながら課題エリアに入ったので、普段とは逆向きの侵入&lt;/li&gt;
+&lt;li&gt;後退で入るエリアは侵入前に目視して安全確認するのだが、運転席がポールを超えた位置で見ないとダメとのこと&lt;ul&gt;
+&lt;li&gt;ポールの手前からでもエリアの中は見えるが、このポールは壁の代わりなので本来は見えないはず、ということ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;後退前の安全確認とは別に、後退中も目視で安全確認すること&lt;/li&gt;
+&lt;li&gt;方向転換自体は切り返し無しで普通に出来た&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;課題: 鋭角(右折進入、左ターン)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;2回目の後退が少なかったのかな、前輪がギリ通過出来なさそうだったので、3回目の切り返しを軽く行って通過&lt;/li&gt;
+&lt;li&gt;鋭角も&lt;a href="https://jollyo7.github.io/blog/posts/2023/08-27/" rel="nofollow"&gt;8月の教習&lt;/a&gt;のおまけ以来だからなぁ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;課題: 縦列駐車&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;出来たと思って完了報告したら、条件を満たしていないと指摘されてしまった&lt;ul&gt;
+&lt;li&gt;車体を収める範囲、白線の内側じゃ無くてポールとポールを結んだ線の内側だったわ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最初にハンドル切り始めるのが遅かったとのこと&lt;/li&gt;
+&lt;li&gt;1回切り替えして完了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;課題: 方向転換(左)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;切り返し無しで普通に出来た&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;課題: 鋭角(左折侵入、右ターン)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;最初に止める位置が少し前過ぎて、横のバイク用コースのパイロンに当たるコースとなり、1回目の切り返しは小さくなってしまった&lt;/li&gt;
+&lt;li&gt;そのため2回目の切り返しは少し大きめにして、うまく出来た&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;課題: 方向転換(右)(2回目、通常侵入)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;通常侵入時は対向車線にはみ出ないと曲がれない、と言うことを忘れていたので、直前にアドバイスもらった&lt;ul&gt;
+&lt;li&gt;前回の記事にも書いてなかったので、ここで復習出来て良かった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;あとはうまく出来た&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;課題: 縦列駐車(2回目)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;斜めに後退中、目印を勘違いしていたというか、どこまで下がれるのかを忘れていて、「あれ、これ後輪が縁石に乗り上げるのでは」と思ってしまい、切り返しすることに&lt;ul&gt;
+&lt;li&gt;あとで聞いたら、全く問題ないコースだったとのこと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;問題なかったのに切り返したせいで浅くなってしまい、左サイドミラーがポールへぶつかるコースになってしまう。「さっきので良かったよ」って言われたので、元のコースになるべく戻るよう再度切り返し&lt;/li&gt;
+&lt;li&gt;完全には戻れなかったので、3回目の切り返しをしてなんとか完了&lt;/li&gt;
+&lt;li&gt;事前に記事を復習したとき、書いてある「左側の反射板が縁石に掛かる直前くらい」を読み飛ばしていた模様。本番では忘れないようにしよう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;次回、いよいよ卒業検定だ。わりと不安が残るので、ちゃんと振り返るためのメモを作らねば。&lt;/p&gt;</content><category term="免許"></category><category term="教習所"></category><category term="大型二種"></category></entry><entry><title>AP(応用情報技術者試験) 受験</title><link href="https://jollyo7.github.io/blog/posts/2023/10-08/" rel="alternate"></link><published>2023-10-08T00:00:00+09:00</published><updated>2023-10-08T00:00:00+09:00</updated><author><name>Jollyo</name></author><id>tag:jollyo7.github.io,2023-10-08:/blog/posts/2023/10-08/</id><summary type="html">&lt;p&gt;多分受かった。防備録。&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;多分受かった。防備録。&lt;/p&gt;
 &lt;!----&gt;
 
@@ -572,7 +738,7 @@
 &lt;hr&gt;
 &lt;p&gt;そろそろ、特筆するようなことも減ってきたかな。復習に近い内容がメイン。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ギヤは頻繁に変えなくて良い&lt;/li&gt;
+&lt;li&gt;ギアは頻繁に変えなくて良い&lt;/li&gt;
 &lt;li&gt;特に右左折は時間が掛かるので、黄色信号は止まることを中心に考える&lt;/li&gt;
 &lt;li&gt;アクセル、ブレーキはもっと滑らかに&lt;/li&gt;
 &lt;li&gt;ハンドルは上半分を使って回す&lt;/li&gt;
