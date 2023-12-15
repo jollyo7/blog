@@ -375,6 +375,7 @@ article > div.table_wrapper > table {
 }
 article > div.table_wrapper > table th, article > div.table_wrapper > table td {
   border: solid 1px #D7CCC8;
+  padding: 3px;
 }
 article > div.table_wrapper > table th:first-child, article > div.table_wrapper > table td:first-child {
   white-space: nowrap;
